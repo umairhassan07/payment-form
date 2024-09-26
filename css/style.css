@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(244, 242, 242);
+}
+#payment_form_section {
+  height: 100vh;
+}
+
+#payment_form {
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 80%;
+}
+
+.date-inputs input {
+  width: 30%;
+}
+.common-btn {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.amount-box {
+  background-color: rgb(232 231 231);
+  border: 1px solid rgb(232 231 231);
+}
+.light-gray-color {
+  color: #aaa5a5;
+}
+.agreement-paragraph {
+  font-size: 16px;
+}
+.orange-color {
+  color: rgba(255, 90, 30, 0.856);
+}
+.bdr-tb {
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+.subscribe_button {
+  background: rgba(255, 90, 30, 0.856);
+  color: white;
+  border-radius: 10px;
+}
+#payment_form_section .form-control:focus {
+  border-color: #fd7143;
+  box-shadow: 0 0 0 0.25rem rgba(253, 109, 13, 0.25);
+}
+@media only screen and (max-width: 768px) {
+  #payment_form_section {
+    height: auto;
+  }
+  #payment_form {
+    max-width: 100%;
+  }
+}
